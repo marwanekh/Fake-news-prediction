@@ -41,9 +41,6 @@ The dataset contains labeled news articles, with each article labeled as either 
 ### Model Training
 The model is trained using logistic regression on the TF-IDF features extracted from the text data. After training, the model's accuracy is evaluated using the test set.
 
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ### Author
 Khalfaoui Hassani Marwane
 Feel free to contribute or provide feedback to improve this project!
