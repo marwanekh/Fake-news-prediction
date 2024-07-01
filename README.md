@@ -32,12 +32,10 @@ nltk.download('stopwords')
 Run the Python script `fake_news_prediction.py` to train the model and make predictions.
 
 ### Files
-- **fake_news_prediction.py**: Python script containing the implementation of the fake news prediction model.
-- **data/**: Directory containing the dataset used for training and testing.
+- **fake_news_prediction.py**: Python script containing the implementation of the fake news prediction model, containing the dataset used for training and testing.
 
 ### Dataset
-The dataset contains labeled news articles, with each article labeled as either fake or genuine. It is located in the `data/` directory.
-
+The dataset contains labeled news articles, with each article labeled as either fake or genuine.
 ### Model Training
 The model is trained using logistic regression on the TF-IDF features extracted from the text data. After training, the model's accuracy is evaluated using the test set.
 
